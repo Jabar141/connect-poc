@@ -11,9 +11,9 @@ const config = {
   headers: {
     csp: {
       "connect-src": [
-        "https://api.europe-west1.gcp.commercetools.com",
-        "https://auth.europe-west1.gcp.commercetools.com",
-        "https://mc-api.europe-west1.gcp.commercetools.com/graphql"
+        "https://api.us-central1.gcp.commercetools.com",
+        "https://auth.us-central1.gcp.commercetools.com",
+        "https://mc-api.us-central1.gcp.commercetools.com/graphql"
       ]
     }
   },
@@ -22,7 +22,7 @@ const config = {
       initialProjectKey: 'honda-poc',
     },
     production: {
-      applicationId: 'clwsm4il2006rbxekr1hwtkco',
+      applicationId: 'clxvehcqz001811rzbnir3gq7',
       url: 'https://connect-honda-poc.com',
     },
   },

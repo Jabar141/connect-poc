@@ -6,7 +6,7 @@ deployAs:
         - key: CUSTOM_APPLICATION_ID
           description: the Custom Application ID
           required: true
-          default: 'clwsm4il2006rbxekr1hwtkco'
+          default: 'clxvehcqz001811rzbnir3gq7'
         - key: CLOUD_IDENTIFIER
           description: The cloud identifier
           default: 'gcp-us'
