@@ -1,0 +1,14 @@
+query FetchCustomerCustomObjects{
+  customObjects(container: "customer"){
+    offset
+    count
+    total
+    results{
+      container
+      key
+      id
+      value
+      version
+    }
+  }
+}

@@ -1,0 +1,14 @@
+query FetchCustomObjectsBasedOnContainer($container: String!){
+  customObjects(container: $container){
+    offset
+    count
+    total
+    results{
+      container
+      key
+      id
+      value
+      version
+    }
+  }
+}

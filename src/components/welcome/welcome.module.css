@@ -1,0 +1,61 @@
+.imageContainer {
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.infoCard {
+  border: 1px solid var(--color-neutral);
+  background-color: var(--color-surface);
+  padding: var(--spacing-m);
+  border-radius: var(--border-radius-6);
+}
+/* To make the grid/flex items with the same height. */
+.infoCard,
+.infoCard > div,
+.infoCard > div > div {
+  height: 100%;
+}
+
+.infoCardLink {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+.infoCardLink:hover {
+  color: var(--color-primary-40);
+}
+
+.customselect {
+  margin: 30px 0;
+  width: 20%;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.customObject {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  button {
+    margin: 30px 0;
+    font-size: 16px;
+    padding: 8px;
+  }
+}
